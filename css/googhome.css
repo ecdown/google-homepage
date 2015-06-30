@@ -26,3 +26,9 @@
   border-radius: 50%;
 }
 
+#userlogo {
+  background-image: url('https://lh3.googleusercontent.com/-Gev7vIO_Jss/AAAAAAAAAAI/AAAAAAAAAAA/qItw3-GvJu4/s32-c/photo.jpg');
+  width: 32px;
+  height: 32px;
+  background-color: lightblue;
+}
