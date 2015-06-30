@@ -1,19 +1,33 @@
 
+li {
+  list-style: none;
+  display: inline-block;
+}
 
+.cleared {
+  clear:both;
+}
 .mainlogo {
   display:block;
+  padding: 100px;
   margin-left: auto;
   margin-right: auto;
   height: 95px;
   width: 269px;
 }
 
+.right {
+  float:right;
+}
+.left {
+  float:left;
+}
 #appbox {
   width: 25px;
   height: 25px;
   background-image: url('https://ssl.gstatic.com/gb/images/i1_0430b5ba.png');
   background-position: -132px -38px;
-
+  display: block;
 }
 #alert {
   width: 20px;
