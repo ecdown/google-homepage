@@ -15,3 +15,14 @@
   background-position: -132px -38px;
 
 }
+#alert {
+  width: 20px;
+  height: 20px;
+  background-image: url('https://ssl.gstatic.com/gb/images/i1_0430b5ba.png');
+  background-position: -194px -21px;
+  background-color: black;
+  margin: 5px;
+  box-sizing: border box;
+  border-radius: 50%;
+}
+
