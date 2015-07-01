@@ -1,27 +1,76 @@
+* {
+  margin: 0;
+}
 
+html,body {
+  height: 100%;
+  font-family: Arial;
+}
+.container {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+.container:after {
+  content:"";
+  display:block;
+}
 li {
   list-style: none;
   display: inline-block;
 }
-
+#header ul li {
+  margin: 5px;
+  vertical-align: middle;
+  font-size: 12px;
+}
 .cleared {
   clear:both;
 }
 .mainlogo {
   display:block;
-  padding: 100px;
+  padding-top: 100px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   height: 95px;
   width: 269px;
 }
 
-.right {
-  float:right;
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
-.left {
-  float:left;
+center {
+  display: block;
+  text-align: center;
 }
+input[type="text"] {
+  padding: 10px;
+  border: solid 2px lightblue;
+  transition: border 0.3s;
+  width: 568px;
+  height: 10px;
+  background: url("data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs=") no-repeat scroll right 10px center;
+ background-size: 14px 19px; 
+ vertical-align: middle;
+}
+input[type="text"]:hover {
+  padding: 10px;
+  border: solid 2px lightblue;
+  transition: border 0.3s;
+  width: 568px;
+  height: 10px;
+ vertical-align: middle;
+}
+
+.buttons {
+  text-align:center;
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid lightgray;
+}
+
 #appbox {
   width: 25px;
   height: 25px;
@@ -45,4 +94,29 @@ li {
   width: 32px;
   height: 32px;
   background-color: lightblue;
+}
+
+
+#footer {
+  //overflow: hidden;
+  height: 50px;
+  bottom:0;
+  left:0;
+  right:0;
+  min-width: 640px;
+  background:#f2f2f2;
+  font-size:12px
+}
+
+.left  {
+  float:left;
+  vertical-align: middle;
+  padding-top: 15px;
+  margin-left: 27px;
+}
+.right  {
+  float:right;
+  vertical-align: middle;
+  padding-top: 15px;
+  margin-right: 27px;
 }
