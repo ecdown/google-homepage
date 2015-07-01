@@ -94,6 +94,7 @@ input[type="text"]:hover {
   width: 32px;
   height: 32px;
   background-color: lightblue;
+  border-radius: 50%;
 }
 
 
